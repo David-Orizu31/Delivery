@@ -1,0 +1,27 @@
+@media (max-width:780px) {
+    header {
+        display: none;
+    }
+
+    .banner {
+        min-height: 930px;
+    }
+
+    .btn-quote {
+        margin-left: 0px;
+    }
+
+    .nav-link:hover {
+        border-bottom: 0px;
+    }
+
+    .nav-link.active {
+        border-bottom: 0px;
+    }
+}
+
+@media (max-width:480px) {
+    .banner {
+        min-height: 1000px;
+    }
+}
