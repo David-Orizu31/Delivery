@@ -156,3 +156,153 @@ header {
     background-color: rgb(210, 20, 30);
     color: white !important;
 }
+
+.work-details {
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 4px;
+    height: 250px;
+}
+
+
+.work-icons {
+    color: rgb(210, 20, 30);
+    font-size: 30px;
+}
+
+.work-text {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.second-work {
+    margin-top: 20px;
+}
+
+.services-area {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.service-box {
+    border: 2px solid rgb(210, 20, 30);
+    border-radius: 4px;
+    padding: 30px;
+}
+
+.service-icons {
+    color: white;
+    font-size: 40px;
+}
+
+.service-text {
+    font-size: 20px;
+}
+
+.list {
+    list-style-type: square;
+    line-height: 2.2em;
+    font-size: 20px;
+}
+
+.testimonial-area h3 {
+    color: rgb(126, 13, 19);
+}
+
+.testimonial-content {
+    padding: 30px;
+    margin-right: 20px;
+    background: #eee;
+    box-shadow: 5px 8px 10px rgb(0 0 0 / 0.2);
+}
+
+.testimonials-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.testimonial-content .quote {
+    font-size: 20px;
+    margin-right: 150px;
+    color: rgb(210, 20, 30);
+}
+
+.testimonial-content .testimonial-text {
+    font-size: 15px !important;
+}
+
+.rating .fa-star {
+    color: rgb(230, 197, 13);
+}
+
+.rating .fa-star-half {
+    color: rgb(230, 197, 13);
+}
+
+.testimonial-name p{
+    font-style: italic;
+    font-size: 15px;
+    color: rgb(126, 13, 19) !important;
+}
+
+.ship-truck-banner {
+    background:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(../img/shipping-truck.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+    padding-top: 100px;
+}
+
+.btn-truck-quote {
+    background-color: rgb(210, 20, 30);
+    padding: 15px 30px 15px 30px;
+    font-size: 20px;
+}
+
+.footer-area {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.foot .foot-head {
+    color: rgb(210, 20, 30);
+}
+
+.foot .foot-link {
+    list-style-type: none;
+    line-height: 2em;
+    padding-left: 0px !important;
+}
+
+.foot .foot-link a {
+    text-decoration: none;
+}
+
+.foot .foot-link a:hover {
+    color: rgb(210, 20, 30) !important;
+}
+
+.foot-link i {
+    margin-right: 10px;
+}
+
+.foot-social .social-link a{
+   color: rgb(210, 20, 30);
+   margin-right: 20px;
+   font-size: 20px;
+}
+
+.foot-social .social-link a .fab:hover {  
+   transform: rotateY(540deg);
+   transition: 1s;
+}
+
+.copyright p {
+    color: rgb(172, 170, 170) !important;
+    font-size: 14px;
+}

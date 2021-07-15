@@ -18,6 +18,18 @@
     .nav-link.active {
         border-bottom: 0px;
     }
+
+    .work-details {
+        margin-bottom: 20px;
+    }
+
+    .second-work {
+        margin-top: 0px;
+    }
+
+    .service-box {
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width:480px) {
