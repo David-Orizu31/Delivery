@@ -263,6 +263,27 @@ header {
     font-size: 20px;
 }
 
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(210, 20, 30);
+    color: white;
+    cursor: pointer;
+    height: 50px !important;
+    width: 55px !important;
+    border-radius: 50%;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
 .footer-area {
     padding-top: 30px;
     padding-bottom: 30px;
