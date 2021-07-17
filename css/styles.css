@@ -1,7 +1,7 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto',sans-serif;
 }
 
 /* Paste this css to your style sheet file or under head tag */
@@ -32,7 +32,7 @@ header {
 
 .navbar-nav .nav-link {
    color: white !important;
-   padding-right: 20px !important;
+   padding-right: 15px !important;
    font-size: 18px;
 }
 
@@ -80,12 +80,54 @@ header {
     color: black;
 }
 
+.charter-home {
+    padding-top: 100px;
+}
+
+.charter-box {
+    width: 500px;
+    background-color: white;
+}
+
+.charter-column {
+    padding: 15px;
+}
+
+.charter-column a span {
+    color: rgb(210, 20, 30);
+    font-size: 30px;
+}
+
+.charter-column a {
+    text-decoration: none;
+}
+
+.charter-column-track {
+    background-color: rgb(210, 20, 30);
+    color: white;
+}
+
+.charter-column-track a span {
+    color: white;
+    font-size: 30px;
+}
+
+.tracking {
+    border-radius: 0px !important;
+    height: 60px;
+}
+
+.btn-track {
+    background-color: rgb(210, 20, 30);
+    border-radius: 0px;
+}
+
 .banner {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/ship-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 700px;
+    min-height: 500px;
 }
 
 .banner-text {
@@ -100,6 +142,123 @@ header {
 .banner-text p {
     color: rgb(233, 76, 84);
     line-height: 2em;
+}
+
+
+.welcome-single-services {
+    margin-top: 30px;
+    background: #fff;
+}
+
+.welcome-single-services .img-box {
+    background: #fff;
+    width: 222px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
+}
+
+.welcome-single-services .img-box, .welcome-single-services .text-box {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.welcome-single-services .text-box {
+    background: rgb(245, 234, 234);
+    position: relative;
+    padding-left: 25px;
+    padding-right: 27px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.welcome-single-services .text-box:before {
+    content: '';
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -20px;
+    -webkit-transform: skew(
+-12deg
+);
+    -ms-transform: skew(-12deg);
+    transform: skew(
+-12deg
+);
+    background: rgb(245, 234, 234);
+    z-index: 9;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.welcome-single-services:hover .text-box {
+    background: rgb(210, 20, 30);
+}
+
+.welcome-single-services:hover .text-box::before {
+    background: rgb(210, 20, 30);
+}
+
+.welcome-single-services:hover .text-box h3 {
+    color: white !important;
+}
+
+.welcome-single-services:hover .text-box p {
+    color: white !important;
+}
+
+.welcome-single-services .text-box .content {
+    position: relative;
+    z-index: 11;
+}
+
+.welcome-single-services .text-box h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(210, 20, 30);
+    font-weight: bold;
+    line-height: 33px;
+    margin-bottom: 9px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.welcome-single-services .text-box p {
+    color: #898989;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.welcome-single-services .text-box p {
+    color: #898989;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.welcome-single-services .text-box:after {
+    content: '';
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -21px;
+    -webkit-transform: skew(
+-13deg
+);
+    -ms-transform: skew(-13deg);
+    transform: skew(
+-13deg
+);
+    background: #DADADA;
+    z-index: 8;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
 }
 
 /* This changes all the animations globally */
@@ -189,6 +348,32 @@ header {
     border: 2px solid rgb(210, 20, 30);
     border-radius: 4px;
     padding: 30px;
+}
+
+.charter-header {
+    font-weight: 500 !important;
+}
+
+.charter-manage i{
+    color: rgb(210, 20, 30);
+    font-size: 50px;
+}
+
+.charter-manage p {
+    line-height: 1.5em;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.btn-contact {
+    color: rgb(210, 20, 30);
+    border: 1px solid rgb(210, 20, 30);
+    padding: 15px;
+}
+
+.btn-contact:hover {
+    color: white;
+    background: rgb(210, 20, 30);
 }
 
 .service-icons {
@@ -326,4 +511,53 @@ header {
 .copyright p {
     color: rgb(172, 170, 170) !important;
     font-size: 14px;
+}
+
+
+.btn-find {
+    background-color: rgb(210, 20, 30);
+    padding: 15px;
+}
+
+.drop-package-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.4) , rgba(0, 0, 0, 0.4)) , url(../img/fedex-package.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    padding-top: 150px;
+}
+
+.drop-area {
+    margin: 15px;
+}
+
+.drop-area span {
+    font-size: 40px;
+    color: white;
+    background-color: rgb(210, 20, 30);
+    padding: 22px 30px 22px 30px;
+    border-radius: 50%;
+}
+
+.drop-text {
+    color: rgb(77, 74, 74);
+    text-decoration: none;
+}
+
+.drop-text:hover {
+    color: rgb(210, 20, 30);
+}
+
+.btn-find-dropoff {
+    color: rgb(210, 20, 30);
+    border: 2px solid rgb(210, 20, 30);
+    width: 300px;
+    padding: 20px;
+    border-radius: 40px;
+    text-transform: uppercase;
+}
+
+.btn-find-dropoff:hover {
+    color: rgb(210, 20, 30);
 }

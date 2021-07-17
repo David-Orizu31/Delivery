@@ -3,10 +3,6 @@
         display: none;
     }
 
-    .banner {
-        min-height: 930px;
-    }
-
     .btn-quote {
         margin-left: 0px;
     }
@@ -31,13 +27,64 @@
         margin-bottom: 20px;
     }
 
+    .charter-manage i{
+        font-size: 80px;
+    }
+    
+    .charter-manage p {
+        font-size: 17px;
+    }
+
     .ship-truck-banner {
         padding-top: 100px;
     }
 }
 
 @media (max-width:480px) {
+
     .banner {
-        min-height: 1000px;
+        min-height: 750px;
+    }
+
+    .charter-home {
+        padding-top: 80px;
+    }
+
+    .charter-box {
+        width: 250px;
+    }
+
+    .d-grid {
+        margin-top: 15px;
+    }
+
+    .welcome-single-services .img-box {
+        -webkit-clip-path: none;
+        clip-path: none;
+    }
+
+    .welcome-single-services .img-box, .welcome-single-services .text-box {
+        display: block;
+        padding: 0;
+        width: 100%;
+    }
+
+    .welcome-single-services .img-box img {
+        width: 100%;
+    }
+
+    .welcome-single-services .text-box {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .charter-manage i{
+        font-size: 50px;
+    }
+    
+    .charter-manage p {
+        font-size: 15px;
     }
 }
