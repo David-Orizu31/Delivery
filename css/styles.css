@@ -520,12 +520,215 @@ header {
 }
 
 .drop-package-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.4) , rgba(0, 0, 0, 0.4)) , url(../img/fedex-package.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6) , rgba(0, 0, 0, 0.6)) , url(../img/fedex-package.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 400px;
     padding-top: 150px;
+}
+
+.drop-banner-text {
+    font-size: 18px;
+}
+
+.drop-banner-link {
+    color: rgb(210, 20, 30);
+    text-decoration: none;
+}
+.fxg-jump-links {
+    width: 100%;
+    height: 55px;
+    text-align: center;
+    background: rgba(255,255,255,0.9);
+    border-bottom: 2px solid #d5d5d5;
+    -webkit-transition: top .3s ease-in-out;
+    -moz-transition: top .3s ease-in-out;
+    -o-transition: top .3s ease-in-out;
+    -ms-transition: top .3s ease-in-out;
+    transition: top .3s ease-in-out;
+}
+
+.fxg-jump-links__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.fxg-wrapper {
+    width: 970px;
+    margin: 0 auto;
+}
+
+.fxg-jump-links__nav {
+    display: none;
+    padding: 18px 5px;
+}
+
+.fxg-jump-links__nav--left svg {
+    -moz-transform: rotate(-270deg) translateX(2px);
+    -ms-transform: rotate(-270deg) translateX(2px);
+    -webkit-transform: rotate(
+-270deg
+) translateX(2px);
+    transform: rotate(
+-270deg
+) translateX(2px);
+}
+
+.fxg-jump-links__nav svg {
+    width: 18px;
+    height: 16px;
+    fill: #333;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.fxg-jump-links__bar {
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    padding: 0;
+    -webkit-overflow-scrolling: touch;
+}
+
+.fxg-jump-links__bar:hover .fxg-jump-links__link-item:hover, .fxg-jump-links__bar .fxg-jump-links__link-item.is-active {
+    padding-bottom: 0;
+    border-bottom: 4px solid rgb(210, 20, 30);
+}
+
+.fxg-jump-links__link-item {
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.fxg-jump-links__link-item:hover .fxg-link, .fxg-jump-links__link-item.is-active .fxg-link {
+    color: rgb(210, 20, 30);
+}
+
+.fxg-link {
+    font-size: 14px;
+    line-height: 14px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+.fxg-jump-links__nav--right svg {
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(
+-90deg
+);
+    transform: rotate(
+-90deg
+);
+}
+
+.fxg-jump-links .fxg-link {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 17px;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    color: #333;
+    overflow: hidden;
+    padding: 14px 0;
+    margin: 0;
+}
+
+.fxg-jump-links--sticky {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.full-service-text {
+    font-size: 17px;
+    line-height: 1.8em;
+}
+
+.full-service-head {
+    color: rgb(210, 20, 30);
+}
+
+.more-service-icon {
+    color: rgb(210, 20, 30);
+    font-size: 80px;
+}
+
+.more-service-p {
+    color: rgb(105, 104, 104);
+}
+
+.service-pill .nav-item .nav-link {
+    border-radius: 0px !important;
+    color: rgb(210, 20, 30);
+    font-size: 18px;
+    padding: 20px 40px 20px 40px;
+}
+
+.service-pill .nav-item .nav-link.active {
+    background-color: rgb(210, 20, 30);
+    color: white !important;
+}
+
+.pill-offset {
+    margin-left: 250px;
+}
+
+.pill-offset-2 {
+    margin-left: 400px;
+}
+
+.supplies-list {
+    font-size: 18px;
+    
+}
+
+.ship-guide-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/fedex-track.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    padding-top: 100px;
+}
+
+.ship-guide-banner p {
+    line-height: 2em;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+}
+
+.ship-guide-col h2{
+    color: rgb(210, 20, 30);
+}
+
+.ship-guide-col p{
+    line-height: 1.8em;
+    font-size: 17px;
+}
+
+.accordion-button {
+    font-size: 20px;
+}
+
+.accordion-body {
+    font-size: 17px;
+    line-height: 2em;
+}
+
+.para-head {
+    color: rgb(210, 20, 30);
+}
+
+.img-responsive {
+    width: 100%;
 }
 
 .drop-area {

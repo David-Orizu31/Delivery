@@ -38,6 +38,22 @@
     .ship-truck-banner {
         padding-top: 100px;
     }
+
+    .service-pill .nav-item .nav-link:hover {
+        border-bottom: 2px solid rgb(210, 20, 30);
+    }
+
+    .service-pill .nav-item .nav-link {
+        border-bottom: 2px solid white;
+    }
+
+    .service-pill .nav-item .nav-link.active {
+        border-bottom: 2px solid rgb(210, 20, 30);
+    }
+    
+    .pill-offset {
+        margin-left: 20px !important;
+    }
 }
 
 @media (max-width:480px) {
@@ -87,4 +103,27 @@
     .charter-manage p {
         font-size: 15px;
     }
+
+    .fxg-jump-links__bar:hover .fxg-jump-links__link-item:hover, .fxg-jump-links__bar .fxg-jump-links__link-item.is-active {
+        padding-bottom: 0;
+        border-bottom: 4px solid rgb(210, 20, 30);
+    }
+
+    .pill-offset {
+        margin-left: 70px !important;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+.fxg-wrapper {
+    width: 738px;
+    padding: 0 15px;
+}
+
+.fxg-link {
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 300;
+}
 }
