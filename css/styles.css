@@ -46,6 +46,10 @@ header {
     border-bottom: 2px solid rgb(210, 20, 30);
 }
 
+.img-logo {
+    width: 250px;
+}
+
 .btn-quote {
     margin-left: 150px;
     background-color: white;
@@ -473,6 +477,10 @@ header {
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: rgba(0, 0, 0, 0.9);
+}
+
+.foot-2 {
+    margin-top: 50px;
 }
 
 .foot .foot-head {
