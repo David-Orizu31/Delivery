@@ -696,7 +696,7 @@ svg:not(:root) {
 }
 
 .ship-guide-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/fedex-track.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/fedex-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -816,6 +816,36 @@ svg:not(:root) {
 
 .contact-info-text.text-2 {
     padding-top: 15px;
+}
+
+.track-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/fedex-track.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    padding-top: 100px;
+}
+
+.track-p {
+    font-size: 18px;
+}
+
+.shipping-conditions h3 {
+    color: rgb(210, 20, 30);
+}
+
+.shipping-conditions ul {
+    list-style-type: none;
+}
+
+.shipping-conditions ul li{
+    line-height: 2em;
+    font-size: 17px;
+}
+
+.no-refund {
+    font-size: 20px;
 }
 
 .embed-responsive {

@@ -59,6 +59,10 @@
         margin-top: 30px;
     }
 
+    .shipping-conditions {
+        margin-top: 30px;
+    }
+
     .embed-responsive {
         height: 400px;
     }
@@ -127,6 +131,10 @@
 
     .embed-responsive {
         height: 300px;
+    }
+
+    .track-area {
+        margin-left: 30px;
     }
 
 }
