@@ -63,6 +63,10 @@
         margin-top: 30px;
     }
 
+    .embed-track {
+        height: 280px !important;
+    }
+
     .embed-responsive {
         height: 400px;
     }
@@ -135,6 +139,15 @@
 
     .track-area {
         margin-left: 30px;
+    }
+
+    .embed-track {
+        height: 200px !important;
+    }
+
+    .img-track {
+        width: 60px;
+        height: 55px;
     }
 
 }
